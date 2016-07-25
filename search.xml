@@ -88,14 +88,14 @@
 <ul>
 <li>双击运行 Git-2.7.0.2-64-bit.exe，接下来一律下一步，不需要多余的选择，假设你安装的目录位置跟我一样：C:\Program Files\Git</li>
 <li>打开 Git Bash（路径：C:\Program Files\Git\git-bash.exe），输入：git –version</li>
-<li>如下图，如果出现：git version 2.7.0.windows.2，这表示安装成功<br><img src="/img/2016/07/26/001.png" alt="mahua"></li>
+<li>如下图，如果出现：git version 2.7.0.windows.2，这表示安装成功<br><img src="/img/2016/07/26/001.jpg" alt="mahua"></li>
 </ul>
 </blockquote>
 <h3 id="Node-js-安装"><a href="#Node-js-安装" class="headerlink" title="Node.js 安装"></a>Node.js 安装</h3><blockquote>
 <ul>
 <li>双击运行 node-v5.7.0-x64.msi，接下来一律下一步，不需要多余的选择。</li>
 <li>安装完之后，打开 Git Bash，输入：npm -v</li>
-<li>如下图，如果出现：3.6.0，则表示 Node.js 安装成功<br><img src="/img/2016/07/26/002.png" alt="mahua"></li>
+<li>如下图，如果出现：3.6.0，则表示 Node.js 安装成功<br><img src="/img/2016/07/26/002.jpg" alt="mahua"></li>
 </ul>
 </blockquote>
 <h3 id="Node-js-源设置"><a href="#Node-js-源设置" class="headerlink" title="Node.js 源设置"></a>Node.js 源设置</h3><blockquote>
