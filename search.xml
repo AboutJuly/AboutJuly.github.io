@@ -139,14 +139,14 @@
 <blockquote>
 <ul>
 <li>显示 WARN 也不用管</li>
-<li>安装完成之后，E:\git_work_space\hexo 目录结构是这样的：<br><img src="/img/2016/07/26/003.png" alt="mahua"></li>
+<li>安装完成之后，E:\git_work_space\hexo 目录结构是这样的：<br><img src="/img/2016/07/26/003.jpg" alt="mahua"></li>
 <li>现在我们启动 hexo 本地服务，看下默认的博客是怎样的，命令：</li>
 </ul>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">hexo server</div></pre></td></tr></table></figure>
 <blockquote>
 <ul>
-<li>现在用浏览器访问：<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> ，效果如下图<br><img src="/img/2016/07/26/004.png" alt="mahua"></li>
+<li>现在用浏览器访问：<a href="http://localhost:4000" target="_blank" rel="external">http://localhost:4000</a> ，效果如下图<br><img src="/img/2016/07/26/004.jpg" alt="mahua"></li>
 <li>如果要停止 hexo 服务：在 Git Bash 下按 Ctrl + C 即可</li>
 </ul>
 </blockquote>
@@ -178,7 +178,7 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">cd e:/git_work_space/hexo/themes/yelee</div><div class="line">git pull origin master</div></pre></td></tr></table></figure>
 <blockquote>
 <ul>
-<li>下载好主题文件之后，我们现在要修改 E:\git_work_space\hexo 目录下的项目配置文件：_config.yml，把对应的主题目录名改下，编辑如下图。<br><img src="/img/2016/07/26/005.png" alt="mahua"><br>更改主题目录名后，我们还要重新生成主题静态内容：<ul>
+<li>下载好主题文件之后，我们现在要修改 E:\git_work_space\hexo 目录下的项目配置文件：_config.yml，把对应的主题目录名改下，编辑如下图。<br><img src="/img/2016/07/26/005.jpg" alt="mahua"><br>更改主题目录名后，我们还要重新生成主题静态内容：<ul>
 <li>继续在 Git Bash 中输入命令：</li>
 </ul>
 </li>
@@ -187,19 +187,19 @@
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">hexo generate</div><div class="line">hexo server</div></pre></td></tr></table></figure>
 <blockquote>
 <ul>
-<li>重新访问：<a href="http://localhost:4000/，效果如下图" target="_blank" rel="external">http://localhost:4000/，效果如下图</a><br><img src="/img/2016/07/26/006.png" alt="mahua"></li>
+<li>重新访问：<a href="http://localhost:4000/，效果如下图" target="_blank" rel="external">http://localhost:4000/，效果如下图</a><br><img src="/img/2016/07/26/006.jpg" alt="mahua"></li>
 </ul>
 </blockquote>
 <h3 id="创建-Github-pages-并-SSH-授权"><a href="#创建-Github-pages-并-SSH-授权" class="headerlink" title="创建 Github pages 并 SSH 授权"></a>创建 Github pages 并 SSH 授权</h3><blockquote>
 <ul>
-<li>现在假设你已经有一个 Gtihub 账号，你还需要一个特别的仓库，特别在仓库名就是你的 Github 账号登录名，比如我的用户名是：judasn，那我要创建的仓库名字完整滴填写是：judasn.github.io，具体效果如下图。<br><img src="/img/2016/07/26/007.png" alt="mahua"></li>
+<li>现在假设你已经有一个 Gtihub 账号，你还需要一个特别的仓库，特别在仓库名就是你的 Github 账号登录名，比如我的用户名是：judasn，那我要创建的仓库名字完整滴填写是：judasn.github.io，具体效果如下图。<br><img src="/img/2016/07/26/007.jpg" alt="mahua"></li>
 <li>创建好仓库之后，要本地生成 SSH 秘钥，方便电脑上的 git 软件好提交内容到 Github 上<br>在 Git Bash 中，输入：ssh-keygen -t rsa -C “你的邮箱地址”，然后回车，回车，再回车，一共 3 次回车，具体含义自己 Google。</li>
 </ul>
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">ssh-keygen -t rsa -C “OnJuly11@163.com”</div></pre></td></tr></table></figure>
 <blockquote>
 <ul>
-<li>生成后效果如下图：<br><img src="/img/2016/07/26/008.png" alt="mahua"></li>
+<li>生成后效果如下图：<br><img src="/img/2016/07/26/008.jpg" alt="mahua"></li>
 <li>此时，生成密钥后，在你电脑目录：C:\Users\你的计算机用户名.ssh 下，会生成两个文件：<ul>
 <li>私钥：id_rsa</li>
 <li>公钥：id_rsa.pub</li>
