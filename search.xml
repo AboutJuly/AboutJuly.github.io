@@ -4,6 +4,50 @@
   
     
     <entry>
+      <title><![CDATA[搭建GITHUB代码库]]></title>
+      <url>aboutjuly.github.io/2016/08/03/Java/20160801/</url>
+      <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""><br>   创建github代码库，并用idea提交代码到库中。<br><a id="more"></a></excerpt></p>
+<the rest="" of="" contents="" |="" 余下全文="">
+
+<h2 id="搭建GITHUB代码库"><a href="#搭建GITHUB代码库" class="headerlink" title="搭建GITHUB代码库"></a>搭建GITHUB代码库</h2><blockquote>
+<ul>
+<li><code>在开始下面操作之前你必须熟悉git安装，git简单配置,idea简单使用,还有必须有一个github账号，在下面介绍的内容中不会重点讲解这些。只会重点部分讲解一下。如果对我前面说的内容不清楚的请看我前篇博文“搭建hexo博客”有详细介绍！</code></li>
+</ul>
+</blockquote>
+<h3 id="安装Git"><a href="#安装Git" class="headerlink" title="安装Git"></a>安装Git</h3><blockquote>
+<ul>
+<li>下载地址： <a href="http://git-scm.com/downloads" target="_blank" rel="external">http://git-scm.com/downloads</a></li>
+<li>Git简要使用说明： <a href="http://rogerdudler.github.io/git-guide/index.zh.html" target="_blank" rel="external">http://rogerdudler.github.io/git-guide/index.zh.html</a></li>
+<li>Github官方使用说明： <a href="https://help.github.com/articles/set-up-git" target="_blank" rel="external">https://help.github.com/articles/set-up-git</a></li>
+</ul>
+</blockquote>
+<h3 id="配置Git环境变量"><a href="#配置Git环境变量" class="headerlink" title="配置Git环境变量"></a>配置Git环境变量</h3><p><img src="/img/2016/08/01/004.jpg" alt="mahua"></p>
+<h3 id="配置Git用户"><a href="#配置Git用户" class="headerlink" title="配置Git用户"></a>配置Git用户</h3><blockquote>
+<ul>
+<li>打开git.exe输入你的github用户名,邮箱</li>
+</ul>
+</blockquote>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">git config --global user.name &quot; Your Name Here &quot;</div><div class="line">git config --global user.email &quot; your_email@example.com &quot;</div></pre></td></tr></table></figure>
+<h3 id="在github上创建仓库"><a href="#在github上创建仓库" class="headerlink" title="在github上创建仓库"></a>在github上创建仓库</h3><p><img src="/img/2016/08/01/001.jpg" alt="mahua"></p>
+<h2 id="使用IDEA获取项目、提交项目到Github代码库"><a href="#使用IDEA获取项目、提交项目到Github代码库" class="headerlink" title="使用IDEA获取项目、提交项目到Github代码库"></a>使用IDEA获取项目、提交项目到Github代码库</h2><h3 id="在IDEA中配置Git"><a href="#在IDEA中配置Git" class="headerlink" title="在IDEA中配置Git"></a>在IDEA中配置Git</h3><blockquote>
+<ul>
+<li>选择菜单”File — Settings”，找到”Version Control — Git”：到Git的安装目录下的Git.exe执行文件所在地<br><img src="/img/2016/08/01/002.jpg" alt="mahua"></li>
+</ul>
+</blockquote>
+<h3 id="配置你在Github上注册的账户"><a href="#配置你在Github上注册的账户" class="headerlink" title="配置你在Github上注册的账户"></a>配置你在Github上注册的账户</h3><blockquote>
+<ul>
+<li>填入你的Github账户信息，点击”Test”按钮测试连接，若链接成功会提示”Connection successful”。保存完成。点击OK，此时可能要你输入IntelliJ IDEA的密码，如果没设，点击确定即可<br><img src="/img/2016/08/01/003.jpg" alt="mahua"></li>
+</ul>
+</blockquote>
+<h3 id="用idea从github代码库下载代码"><a href="#用idea从github代码库下载代码" class="headerlink" title="用idea从github代码库下载代码"></a>用idea从github代码库下载代码</h3><p><img src="/img/2016/08/01/005.jpg" alt="mahua"><br><img src="/img/2016/08/01/006.jpg" alt="mahua"></p>
+<h3 id="用idea往github代码库提交代码"><a href="#用idea往github代码库提交代码" class="headerlink" title="用idea往github代码库提交代码"></a>用idea往github代码库提交代码</h3><p><img src="/img/2016/08/01/007.jpg" alt="mahua"><br><img src="/img/2016/08/01/008.jpg" alt="mahua"></p>
+<ul>
+<li>输入网址 <a href="https://github.com/AboutJuly/code" target="_blank" rel="external">https://github.com/AboutJuly/code</a> 就可以查看到我刚刚提交上去的代码了。</li>
+</ul>
+</the>]]></content>
+    </entry>
+    
+    <entry>
       <title><![CDATA[搭建hexo博客]]></title>
       <url>aboutjuly.github.io/2016/07/27/hexo/20160725/</url>
       <content type="html"><![CDATA[<p><excerpt in="" index="" |="" 首页摘要=""><br>  本文将讲解如何在github上搭建 Hexo 博客、并编写第一篇博文！<br><a id="more"></a></excerpt></p>
